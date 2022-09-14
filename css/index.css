@@ -1,0 +1,123 @@
+/*CSS Reset*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+	padding: 1rem;
+	/*kapag 2 values yung sa padding, 1st value = top bottom, 2nd value = left right*/
+	/*kapag 3 naman, 1=top,2=left and right, 3=bottom*/
+	/*1=top,2=right,3=bottom,4=left*/
+	margin-bottom: 2rem;
+	border-bottom: 1px solid gray;
+	/*first is thickness*/
+
+
+}
+
+nav > ul{
+	list-style-type: none;
+}
+
+
+nav .nav, nav .nav-logo{
+	margin: 0.5rem;
+	display: inline;
+}
+
+
+/*intro section*/
+#intro{
+	/*
+	padding-top: 2rem;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 3rem;
+	*/
+
+	padding: 2rem 10% 3rem;
+
+	text-align: center;
+
+
+}
+
+
+
+#intro .header, #intro p{
+	margin-bottom: 1rem;
+}
+
+#intro button{
+
+	color: white;
+	background-color: #c2195b;
+	padding: 1rem;
+	border-radius: 25px;
+	font-weight: bold;
+	font-size: 1rem;
+	/*margin-top: 1rem;*/
+}
+
+
+
+/*end of intro section*/
+
+
+/*succeed-info section*/
+
+#succeed-info {
+	padding: 2rem 10% 3 rem;
+	
+
+}
+
+#succeed-info h2{
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+#succeed-info h3{
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+#succeed-info .card{
+	display: inline-block;
+	width: 33%;
+	vertical-align: top;
+	min-height: 150px;
+	padding-left: 25px;
+	/*inline - d mkakaset ng width and height, sa inline block makakaset ng width and height*/
+
+}
+
+footer{
+	padding: 0.7rem;
+}
+
+footer span{
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+}
+
+#pre-footer{
+	background-color: #002540;
+	color: white;
+	padding: 1rem;
+}
+
+#pre-footer div{
+	display: inline-block;
+	width: 20%;
+	height: 50%;
+	padding: 1rem;
+
+}
